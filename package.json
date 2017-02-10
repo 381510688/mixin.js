@@ -1,0 +1,30 @@
+{
+  "name": "mixin.js",
+  "version": "1.0.0",
+  "description": "JavaScript/Node deep copy",
+  "main": "./src/mixin.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/381510688/mixin.js.git"
+  },
+  "keywords": [
+    "mixin",
+    "deep copy"
+  ],
+  "author": "ligang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/381510688/mixin.js/issues"
+  },
+  "homepage": "https://github.com/381510688/mixin.js#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  }
+}
