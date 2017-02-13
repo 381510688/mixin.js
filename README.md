@@ -1,3 +1,5 @@
+# mixin.js [![Build Status](https://travis-ci.org/381510688/mixin.js.svg?branch=master)](https://travis-ci.org/381510688/mixin.js)
+
 ```
 mixin([deep], target, object1, [objectN])
 ```
