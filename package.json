@@ -1,6 +1,6 @@
 {
   "name": "mixin.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript/Node deep copy",
   "main": "src/mixin.js",
   "directories": {

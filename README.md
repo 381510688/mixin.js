@@ -8,7 +8,7 @@ mixin([deep], target, object1, [objectN])
 
 ## 安装
 ```
-$ npm install mixin.js --save-dev
+$ npm install mixin.js --save
 ```
 
 ##使用说明
@@ -29,7 +29,7 @@ $ npm install mixin.js --save-dev
 
 ###Node端
 ```
-var mixin = require('./mixin');
+var mixin = require('mixin.js');
 
 var target = {x: {y: 1, z: 3}};
 var source = {x: {y: 2}, z: 2};
