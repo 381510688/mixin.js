@@ -1,6 +1,6 @@
 {
   "name": "mixin.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript/Node deep copy",
   "main": "src/mixin.js",
   "directories": {
@@ -18,7 +18,7 @@
     "deep copy"
   ],
   "author": "ligang",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/381510688/mixin.js/issues"
   },
