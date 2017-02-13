@@ -1,7 +1,7 @@
 /**
  * Created by ligang on 17/2/10.
  */
-var mixin = require('../src/mixin');
+var mixin = require('../dist/mixin.min.js');
 var expect = require('expect.js');
 
 console.log(mixin)
