@@ -1,8 +1,5 @@
 /**
  * Created by ligang on 17/2/10.
- * 1. 实现jQuery.extend([deep,] target, source)  --2017.02.10
- * 2. 通过参数控制,是否覆盖target对象中已有属性
- * 3. 拷贝过程中,对值进行特定化修改
  */
 (function (global, name, factory) {
     "use strict";
