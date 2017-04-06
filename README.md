@@ -12,6 +12,7 @@ $ npm install mixin.js --save
 ```
 
 ##使用说明
+
 ###外链形式
 ```
 <script type="text/javascript" src="mixin.js"></script>
@@ -28,6 +29,7 @@ $ npm install mixin.js --save
 ```
 
 ###Node端
+
 ```
 var mixin = require('mixin.js');
 
@@ -43,6 +45,7 @@ var obj2= mixin(true, target, source);
 ```
 
 ##API
+
 `mixin([deep], target, object1, [objectN])`
 - deep: 如果设为true，则递归合并。
 - target: 待修改对象。
@@ -50,4 +53,5 @@ var obj2= mixin(true, target, source);
 - objectN: 待合并到第一个对象的对象。
 
 ##License:
+
 MIT
