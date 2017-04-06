@@ -11,9 +11,8 @@ mixin([deep], target, object1, [objectN])
 $ npm install mixin.js --save
 ```
 
-##使用说明
-
-###外链形式
+## 使用说明
+### 外链形式
 ```
 <script type="text/javascript" src="mixin.js"></script>
 
@@ -28,8 +27,7 @@ $ npm install mixin.js --save
 </script>
 ```
 
-###Node端
-
+### Node端
 ```
 var mixin = require('mixin.js');
 
@@ -44,14 +42,12 @@ var obj2= mixin(true, target, source);
 // 结果: {x: {y: 2, z: 3}, z: 2}
 ```
 
-##API
-
+## API
 `mixin([deep], target, object1, [objectN])`
 - deep: 如果设为true，则递归合并。
 - target: 待修改对象。
 - object1: 待合并到第一个对象的对象。
 - objectN: 待合并到第一个对象的对象。
 
-##License:
-
+## License:
 MIT
